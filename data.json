@@ -1,0 +1,119 @@
+{
+        "intents": [
+            {
+                "tag": "greeting",
+                "patterns": ["Hi there", "Hello", "How are you?", "Hey", "Greetings"],
+                "responses": ["Hello! How can I assist you with your engineering queries today?", "Hi! What engineering topic are you interested in?", "Greetings! How can I help you with your engineering needs?"],
+                "context": [""]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": ["Goodbye", "See you later", "Bye", "Farewell", "Talk to you later"],
+                "responses": ["Goodbye! Have a great day.", "See you later! Feel free to return with more questions.", "Bye! Don't hesitate to ask if you need more help."],
+                "context": [""]
+            },
+            {
+                "tag": "thanks",
+                "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "You're helpful"],
+                "responses": ["You're welcome! If you have more questions, just ask.", "Glad I could help! Let me know if you need anything else.", "Anytime! I'm here to assist with your engineering questions."],
+                "context": [""]
+            },
+            {
+                "tag": "noanswer",
+                "patterns": ["I don't understand", "Can you clarify?", "Not sure what you mean", "Can you explain further?"],
+                "responses": ["Sorry, I didn't catch that. Can you please provide more details?", "I'm not sure I understand. Could you clarify your question?", "Please provide more information so I can assist you better."],
+                "context": [""]
+            },
+            {
+                "tag": "engineering_disciplines",
+                "patterns": ["Tell me about different engineering fields", "What are the main branches of engineering?", "Explain engineering disciplines", "What are the types of engineering?"],
+                "responses": ["Engineering fields include Mechanical, Electrical, Civil, Chemical, and Computer Engineering, among others.", "There are several branches of engineering such as Civil, Mechanical, Electrical, Chemical, and Software Engineering.", "Engineering disciplines encompass areas like Structural, Environmental, Aerospace, and Bioengineering."],
+                "context": [""]
+            },
+            {
+                "tag": "mechanical_engineering",
+                "patterns": ["What is mechanical engineering?", "Tell me about mechanical engineering", "Mechanical engineering basics", "What do mechanical engineers do?"],
+                "responses": ["Mechanical engineering involves the design, analysis, and manufacturing of mechanical systems. It includes areas such as thermodynamics, mechanics, and material science.", "Mechanical engineers work on machinery, engines, and systems. They focus on applying principles of physics and materials science.", "Mechanical engineering is concerned with creating and maintaining mechanical systems, including energy conversion and machinery."],
+                "context": [""]
+            },
+            {
+                "tag": "civil_engineering",
+                "patterns": ["What is civil engineering?", "Explain civil engineering", "Civil engineering projects", "Role of civil engineers"],
+                "responses": ["Civil engineering focuses on the design, construction, and maintenance of infrastructure such as roads, bridges, and buildings.", "Civil engineers work on large-scale infrastructure projects, including urban development and environmental improvements.", "Civil engineering involves planning and designing public works projects and ensuring their structural integrity and functionality."],
+                "context": [""]
+            },
+            {
+                "tag": "electrical_engineering",
+                "patterns": ["What does electrical engineering involve?", "Tell me about electrical engineering", "Electrical engineering applications", "Role of electrical engineers"],
+                "responses": ["Electrical engineering deals with the study and application of electricity, electronics, and electromagnetism. It includes power generation, circuit design, and communication systems.", "Electrical engineers work with electrical systems, including power generation, transmission, and control systems.", "Electrical engineering covers a range of topics from circuit design to the development of electrical systems and devices."],
+                "context": [""]
+            },
+            {
+                "tag": "chemical_engineering",
+                "patterns": ["What is chemical engineering?", "Explain chemical engineering", "Chemical engineering processes", "Role of chemical engineers"],
+                "responses": ["Chemical engineering involves the design and operation of processes that convert chemicals and raw materials into useful products.", "Chemical engineers work on processes in industries like pharmaceuticals, petrochemicals, and food production.", "Chemical engineering combines principles of chemistry, physics, and biology to design and optimize chemical processes."],
+                "context": [""]
+            },
+            {
+                "tag": "software_engineering",
+                "patterns": ["What is software engineering?", "Explain software engineering", "Software engineering practices", "Role of software engineers"],
+                "responses": ["Software engineering focuses on the development, design, and maintenance of software systems. It involves programming, system analysis, and software testing.", "Software engineers work on creating and managing software applications, ensuring they meet user needs and are reliable.", "Software engineering combines principles of computer science and engineering to build and maintain software systems."],
+                "context": [""]
+            },
+            {
+                "tag": "engineering_software_tools",
+                "patterns": ["What software tools are used in engineering?", "Popular engineering software", "Software for engineers", "Tools for engineering design"],
+                "responses": ["Common engineering software tools include AutoCAD for design, MATLAB for simulations, and SolidWorks for 3D modeling.", "Engineers often use tools like CATIA, ANSYS, and Revit for various engineering tasks and simulations.", "Engineering software tools help with tasks such as drafting, simulation, and project management. Examples include COMSOL, Simulink, and Fusion 360."],
+                "context": [""]
+            },
+            {
+                "tag": "engineering_calculations",
+                "patterns": ["How to perform engineering calculations?", "Engineering formulas", "Common calculations in engineering", "Example engineering problems"],
+                "responses": ["Engineering calculations often involve formulas from physics and mathematics. Examples include stress calculations, fluid dynamics equations, and thermodynamics formulas.", "Common engineering calculations include determining load capacities, fluid flow rates, and thermal efficiency.", "To perform engineering calculations, you use specific formulas and tools tailored to the field, such as structural load equations or electrical circuit analysis."],
+                "context": [""]
+            },
+            {
+                "tag": "data_science_overview",
+                "patterns": ["What is data science?", "Explain data science", "What does a data scientist do?", "Overview of data science"],
+                "responses": ["Data science involves using scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.", "A data scientist analyzes and interprets complex data to help organizations make decisions. This involves data cleaning, analysis, and visualization.", "Data science combines skills from statistics, computer science, and domain expertise to understand and use data effectively."],
+                "context": [""]
+            },
+            {
+                "tag": "machine_learning",
+                "patterns": ["What is machine learning?", "Explain machine learning", "Types of machine learning", "Applications of machine learning"],
+                "responses": ["Machine learning is a branch of artificial intelligence where systems learn from data to improve their performance without being explicitly programmed.", "Types of machine learning include supervised learning, unsupervised learning, and reinforcement learning.", "Applications of machine learning range from recommendation systems to predictive analytics and autonomous systems."],
+                "context": [""]
+            },
+            {
+                "tag": "deep_learning",
+                "patterns": ["What is deep learning?", "Explain deep learning", "Deep learning vs machine learning", "Applications of deep learning"],
+                "responses": ["Deep learning is a subset of machine learning that uses neural networks with many layers (deep networks) to model complex patterns in data.", "Deep learning differs from traditional machine learning in its use of neural networks and its ability to automatically learn features from raw data.", "Applications of deep learning include image recognition, natural language processing, and speech recognition."],
+                "context": [""]
+            },
+            {
+                "tag": "data_preprocessing",
+                "patterns": ["What is data preprocessing?", "Steps in data preprocessing", "Why is data preprocessing important?", "Data cleaning techniques"],
+                "responses": ["Data preprocessing involves preparing and cleaning data before analysis. This includes tasks like handling missing values, normalization, and encoding categorical variables.", "Steps in data preprocessing typically include data cleaning, data transformation, and data reduction.", "Data preprocessing is crucial for ensuring that the data is accurate, consistent, and suitable for analysis."],
+                "context": [""]
+            },
+            {
+                "tag": "data_visualization",
+                "patterns": ["What is data visualization?", "Tools for data visualization", "Importance of data visualization", "Examples of data visualization"],
+                "responses": ["Data visualization is the graphical representation of information and data. It helps to make complex data more accessible and understandable.", "Common tools for data visualization include Tableau, Power BI, and matplotlib.", "Examples of data visualization include bar charts, scatter plots, heatmaps, and dashboards."],
+                "context": [""]
+            },
+            {
+                "tag": "statistics",
+                "patterns": ["What is statistics?", "Basic statistical concepts", "Importance of statistics in data science", "Examples of statistical methods"],
+                "responses": ["Statistics is the study of data collection, analysis, interpretation, and presentation. It is crucial for making sense of data and drawing conclusions.", "Basic statistical concepts include mean, median, mode, variance, and standard deviation.", "In data science, statistics is used for hypothesis testing, regression analysis, and data summarization."],
+                "context": [""]
+            },
+            {
+                "tag": "data_science_tools",
+                "patterns": ["What tools are used in data science?", "Popular data science software", "Tools for data analysis", "Software for data science projects"],
+                "responses": ["Common tools in data science include Python with libraries like pandas and scikit-learn, R, SQL, and tools like Jupyter Notebooks.", "Popular data science software includes tools like Apache Spark, SAS, and KNIME.", "Data science projects often use tools for data manipulation, analysis, and visualization, such as MATLAB, Excel, and various machine learning frameworks."],
+                "context": [""]
+            }
+        ]
+    }
+    
